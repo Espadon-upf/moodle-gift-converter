@@ -89,6 +89,9 @@ with:
 
 #### Description
 
+>description  
+>7. Description affiche simplement du texte (et éventuellement des graphiques) sans nécessiter de réponse.
+
 -----------------
 
 ## Authors
