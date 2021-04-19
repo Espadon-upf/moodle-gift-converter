@@ -99,7 +99,7 @@ with:
 ## Authors
 
 | Last name     |    First name   |      role      
-| :-----------: |: -------------: |   :--------:   
+|  -----------  |   ------------  |    --------   
 |   Appriou     |      Ronan      |   supervisor   
 |   Giard       |      Kenan      | lead developer 
 
