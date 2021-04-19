@@ -105,11 +105,11 @@ if( -e "$ARGV[0]"){ #on verifie qu'un fichier a bien été passer en parametre
 			$cpt++;
 		}
 	#on conte le nombre de réponses proposer et de réponse juste
-		my $reponce = @t;#affecter un tableau a une variable retourne sa taille
-		my $Breponce = split(/,/,$le);#le est la ligne des Answer en comptant le nombre de virgule+1 on obtion le nombre de reponce
+		my $reponse = @t;#affecter un tableau a une variable retourne sa taille
+		my $Breponse = split(/,/,$le);#le est la ligne des Answer en comptant le nombre de virgule+1 on obtion le nombre de reponse
 		$le =~ m/Answer:/i; #on retire Answer pour éviter les erreur avec le A
 		$le = $';
-		if($Breponce eq 1){ # cas pour 1 réponse juste bouton radio
+		if($Breponse eq 1){ # cas pour 1 réponse juste bouton radio
 			foreach (@t){
 				$_ =~ m/\./;#pour récupéré la lètre de la réponse
 				if($le =~ m/$`/){ #si les lêtre de la réponse est dans la ligne des réponse
@@ -132,13 +132,13 @@ if( -e "$ARGV[0]"){ #on verifie qu'un fichier a bien été passer en parametre
 		else # dans les autres cas
 		{
 		my ($vj,$vf);#variable pour stocké les % de point par réponses juste ou fausse.
-			if($reponce-$Breponce eq 1 or $reponce-$Breponce eq 0){# si 1 réponse fausse
-				$vj = 100/$Breponce;
+			if($reponse-$Breponse eq 1 or $reponse-$Breponse eq 0){# si 1 réponse fausse
+				$vj = 100/$Breponse;
 				$vf = $vj
 			}
 			else{ #dans le reste des cas
-				$vj = 100/$Breponce;
-				$vf = 100/($reponce-$Breponce);
+				$vj = 100/$Breponse;
+				$vf = 100/($reponse-$Breponse);
 			}
 			
 			foreach (@t){
