@@ -15,9 +15,6 @@ The **_"moodle gift converter"_**, written in perl, transforms a text file into 
 This program works in perl, so it is necessary to have an executable of this language.  
 We recommend using a Unix distribution that supports it natively.
 
------------------
-
-## Use the programe:
 
 To use the program, you just have to type:  
 `./texttogift.pl [TextFile] [GiftFile]`  
@@ -51,6 +48,7 @@ with:
 
 #### Multiple choice
 
+One right answer
 >multichoice  
 >2. Qui a le premier découvert la relation entre le chômage et l’inflation ?  
 >A. Solow  
@@ -58,6 +56,15 @@ with:
 >C. Friedman  
 >D. Phillips  
 >Answer: D
+
+Multiple right answers
+>multichoice  
+>2. Qui a le premier découvert la relation entre le chômage et l’inflation ?  
+>A. Fatu Hiva  
+>B. Mangareva  
+>C. Hiva Oa  
+>D. Rimatara  
+>Answer: A, C
 
 
 #### Short Answer
