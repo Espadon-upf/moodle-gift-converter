@@ -17,6 +17,16 @@ We recommend using a Unix distribution that supports it natively.
 
 -----------------
 
+## Use the programe:
+
+To use the program, you just have to type:  
+`./texttogift.pl [TextFile] [GiftFile]`  
+with:  
+`[TextFile] => NameOfTheFile.txt`  
+`[GiftFile] => NameOfTheFile.gift`
+
+-----------------
+
 ## Types of Question
 
 |Question Type 	|Keyword for Converter
@@ -78,16 +88,6 @@ We recommend using a Unix distribution that supports it natively.
 ---
 
 #### Description
-
----
-
-## Use the programe:
-
-To use the program, you just have to type:  
-`./texttogift.pl [TextFile] [GiftFile]`  
-with:  
-`[TextFile] => NameOfTheFile.txt`  
-`[GiftFile] => NameOfTheFile.gift`
 
 -----------------
 
