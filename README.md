@@ -7,6 +7,11 @@
 The **_"moodle gift converter"_**, written in perl, transforms a text file into a gift file recognised by Moodle.
 
 -----------------
+## Features
+- nom de question incrementation
+- possibilté de points négatif multichoice une seule réponse
+- ponderation multichoice
+
 
 ## How to use it
 
