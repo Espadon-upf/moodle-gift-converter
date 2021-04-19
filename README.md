@@ -2,15 +2,15 @@
 
 -----------------
 
-##General information
+## General information
 
 The **_"moodle gift converter"_**, written in perl, transforms a text file into a gift file recognised by Moodle.
 
 -----------------
 
-##How to use it
+## How to use it
 
-###requirements:
+### requirements:
 
 This program works in perl, so it is necessary to have an executable of this language.  
 We recommend using a Unix distribution that supports it natively.
@@ -86,7 +86,7 @@ We recommend using a Unix distribution that supports it natively.
 
 ---
 
-###use the programe:
+### use the programe:
 
 To use the program, you just have to type:  
 `./texttogift.pl [TextFile] [GiftFile]`  
@@ -96,13 +96,13 @@ with:
 
 -----------------
 
-##Authors
+## Authors
 
-| Last name     |    First name   |      role      |
-| :-----------: |: -------------: |   :--------:   |
-|   Appriou     |      Ronan      |   supervisor   |
-|   Giard       |      Kenan      | lead developer |
+| Last name     |    First name   |      role      
+| :-----------: |: -------------: |   :--------:   
+|   Appriou     |      Ronan      |   supervisor   
+|   Giard       |      Kenan      | lead developer 
 
 -----------------
-##License
+## License
 This program is under the GPL license see LICENSE.txt
