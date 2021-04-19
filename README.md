@@ -14,8 +14,8 @@
 ## Question Format Examples
 
 #### Multiple choice
->multichoice
->1.  Qui a le premier découvert la relation entre le chômage et l’inflation ?  
+>multichoice  
+>2. Qui a le premier découvert la relation entre le chômage et l’inflation ?
 >A. Solow  
 >B. Samuelson  
 >C. Friedman  
