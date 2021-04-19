@@ -10,7 +10,7 @@ The **_"moodle gift converter"_**, written in perl, transforms a text file into 
 
 ## How to use it
 
-### requirements:
+### Requirements:
 
 This program works in perl, so it is necessary to have an executable of this language.  
 We recommend using a Unix distribution that supports it natively.
@@ -48,8 +48,7 @@ We recommend using a Unix distribution that supports it natively.
     >C. Friedman  
     >D. Phillips  
     >Answer: D
-  
----
+
 
 #### Short Answer
 
@@ -57,22 +56,18 @@ We recommend using a Unix distribution that supports it natively.
 >2. Comment dit-on en latin "la plus belle des jeunes femmes" ?  
     >Answer: Pulcherrima puella
 
----
 
 #### Essay
 
 >essay
 >3. Quelles est la différence entre une collectivité d'outre-mer et un département d'outre-mer ?
 
----
 
 #### True/False
 
 >truefalse
 >4. Les adhérences fortes entre les cellules sont facilitées par la formation de jonctions serrées.  
     >Answer: True
-
----
 
 #### Numerical
 
@@ -86,7 +81,7 @@ We recommend using a Unix distribution that supports it natively.
 
 ---
 
-### use the programe:
+## Use the programe:
 
 To use the program, you just have to type:  
 `./texttogift.pl [TextFile] [GiftFile]`  
