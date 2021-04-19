@@ -11,6 +11,10 @@
 |Numerical 	|numerical
 |Description 	|description
 
+## How to prepare a text file
+1. Set question type
+2. Define answer variants.
+
 ## Question Format Examples
 
 #### Multiple choice
