@@ -1,0 +1,26 @@
+multichoice
+1.  Qui a le premier découvert la relation entre le chômage et l’inflation ?
+A.  Solow
+B.  Samuelson
+C.  Friedman
+D.  Phillips
+Answer: D
+
+essay
+2. Quelles est la différence entre une collectivité d'outre-mer et un département d'outre-mer ?
+
+truefalse
+3. Les adhérences fortes entre les cellules sont facilitées par la formation de jonctions serrées.
+Answer: True
+
+shortanswer
+4. Comment dit-on en latin "la plus belle des jeunes femmes" ?
+Answer: Pulcherrima puella
+
+
+numerical
+5. Combien il y a t'il îles en Polynésie française ?
+Answer: 118
+
+description
+6. Description affiche simplement du texte (et éventuellement des graphiques) sans nécessiter de réponse.
