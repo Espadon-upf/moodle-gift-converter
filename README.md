@@ -51,41 +51,41 @@ with:
 
 #### Multiple choice
 
->multichoice
->2. Qui a le premier découvert la relation entre le chômage et l’inflation ?
-    >A. Solow  
-    >B. Samuelson  
-    >C. Friedman  
-    >D. Phillips  
-    >Answer: D
+>multichoice  
+>2. Qui a le premier découvert la relation entre le chômage et l’inflation ?  
+>A. Solow  
+>B. Samuelson  
+>C. Friedman  
+>D. Phillips  
+>Answer: D
 
 
 #### Short Answer
 
->shortanswer
+>shortanswer  
 >2. Comment dit-on en latin "la plus belle des jeunes femmes" ?  
-    >Answer: Pulcherrima puella
+>Answer: Pulcherrima puella
 
 
 #### Essay
 
->essay
+>essay  
 >3. Quelles est la différence entre une collectivité d'outre-mer et un département d'outre-mer ?
 
 
 #### True/False
 
->truefalse
+>truefalse  
 >4. Les adhérences fortes entre les cellules sont facilitées par la formation de jonctions serrées.  
-    >Answer: True
+>Answer: True
 
 #### Numerical
 
->numerical
+>numerical  
 >5. Combien il y a t'il îles en Polynésie française ?  
-    >Answer: 118
+>Answer: 118
 
----
+
 
 #### Description
 
