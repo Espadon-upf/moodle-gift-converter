@@ -43,7 +43,7 @@ example 2:
 - A => right | 100/3
 - B => right | 100/3
 - C => false |-100/3
-- D => tight | 100/3
+- D => right | 100/3
 2. In the other cases:  
 Point for right answers = 100 / number of right answers  
 Point per wrong answers = 100/(number of answers - point per right answers)
