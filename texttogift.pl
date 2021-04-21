@@ -21,7 +21,7 @@ if( -e "$ARGV[0]"){ #on verifie qu'un fichier a bien été passer en parametre
 	if($ARGV[2]){
 		try {
 			if($ARGV[2] =~ m/^\d+$/){
-				if(int($ARGV[2])>100)
+				if(int($ARGV[2])>100 || int($ARGV[2])<0)
 				{
 					print("Veuiller entrer une valeur entre 0 et 100 pour la note négative.\n");
 					exit;
