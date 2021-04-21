@@ -32,29 +32,34 @@ B,C and D are worth '**-0,5**'.
 For the multichoice with several right answers the calculation of the points is done in the following way:  
 1. In the case of one wrong answer.  
 Point per correct answer = 100 / number of correct answers  
-Point for wrong answers = point for right answers  
-example :
+Point for wrong answers = point for right answers
+
+example 1:
 - A => right | 100/2
 - B => right | 100/2
 - C => false |-100/2
----
+
+example 2: 
 - A => right | 100/3
 - B => right | 100/3
 - C => false |-100/3
 - D => tight | 100/3
 2. In the other cases:  
 Point for right answers = 100 / number of right answers  
-Point per wrong answers = 100/(number of answers - point per right answers)  
-example :  
+Point per wrong answers = 100/(number of answers - point per right answers)
+
+example 1:  
 - A => right | 100
 - B => false | 100/2
 - C => false | 100/2
----
+
+example 2:  
 - A => right | 100/2
 - B => right | 100/2
 - C => false |-100/2
 - D => false |-100/2
----
+
+example 3:  
 - A => right | 100/3
 - B => right | 100/3
 - C => false |-100/2
