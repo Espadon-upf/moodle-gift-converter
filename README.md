@@ -8,11 +8,30 @@ The **_"moodle gift converter"_**, written in perl, transforms a text file into 
 
 -----------------
 ## Features
-- nom de question incrementation
-- possibilté de points négatif multichoice une seule réponse
-- ponderation multichoice
+### Question name incrementation
+You don't have to worry about the question name, it increments by itself.
+It automatically adapts to the number of questions.
+It will look like this:
+"Question [0-9]" if less than 10 questions in total
+"Question [0-9][0-9]" if between 10 and 100 questions in total
+"Question [0-9][0-9][0-9]" if between 100 and 999(inclusive) total
+
+### Allow negative point for multichoise with one right answer
+You have the option of setting a negative point percentage for single answer multichoice questions.
+Note that each question gets 1 point.
+If a question has 4 possible answers : 
+- A
+- B
+- C
+- D  
+
+That the correct answer is 'A' with 50% negative points.  
+B,C and D are worth '**-0,5**'.
+
+### ponderation multichoice
 
 
+-----------------
 ## How to use it
 
 ### Requirements:
