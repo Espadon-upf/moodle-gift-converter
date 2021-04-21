@@ -46,7 +46,7 @@ example 2:
 - D => right | 100/3
 2. In the other cases:  
 Point for right answers = 100 / number of right answers  
-Point per wrong answers = 100/(number of answers - point per right answers)
+Point per wrong answers = 100 / (number of answers - point per right answers)
 
 example 1:  
 - A => right | 100
@@ -65,7 +65,6 @@ example 3:
 - C => false |-100/2
 - D => false |-100/2
 - E => right | 100/3
-Translated with www.DeepL.com/Translator (free version)
 
 -----------------
 ## How to use it
