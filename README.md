@@ -25,7 +25,7 @@ If a question has 4 possible answers :
 - C
 - D  
 
-That the correct answer is 'A' with 50% negative points.  
+That the correct answer is 'A' and you have set 50% negative points.  
 B,C and D are worth '**-0,5**'.
 
 ### ponderation multichoice
