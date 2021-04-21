@@ -18,7 +18,7 @@ It will look like this:
 
 ### Allow negative point for multichoise with one right answer
 You have the option of setting a negative point percentage for single answer multichoice questions.
-Note that each question gets 1 point.
+Note that each question gets 1 point.  
 If a question has 4 possible answers : 
 - A
 - B
