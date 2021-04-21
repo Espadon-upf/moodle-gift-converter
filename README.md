@@ -28,43 +28,43 @@ If a question has 4 possible answers :
 That the correct answer is 'A' and you have set 50% negative points.  
 B,C and D are worth '**-0,5**'.
 
-### ponderation multichoice
+### Ponderation multichoice
 For the multichoice with several right answers the calculation of the points is done in the following way:  
 1. In the case of one wrong answer.  
 Point per correct answer = 100 / number of correct answers  
 Point for wrong answers = point for right answers
 
 example 1:
-- A => right | 100/2
-- B => right | 100/2
-- C => false |-100/2
+- A => right | 50%
+- B => right | 50%
+- C => false |-50%
 
 example 2: 
-- A => right | 100/3
-- B => right | 100/3
-- C => false |-100/3
-- D => right | 100/3
+- A => right | 33,33%
+- B => right | 33,33%
+- C => false |-33,33%
+- D => right | 33,33%
 2. In the other cases:  
 Point for right answers = 100 / number of right answers  
 Point per wrong answers = 100 / (number of answers - point per right answers)
 
 example 1:  
-- A => right | 100
-- B => false | 100/2
-- C => false | 100/2
+- A => right | 100%
+- B => false |-50%
+- C => false |-50%
 
 example 2:  
-- A => right | 100/2
-- B => right | 100/2
-- C => false |-100/2
-- D => false |-100/2
+- A => right | 50%
+- B => right | 50%
+- C => false |-50%
+- D => false |-50%
 
 example 3:  
-- A => right | 100/3
-- B => right | 100/3
-- C => false |-100/2
-- D => false |-100/2
-- E => right | 100/3
+- A => right | 33,33%
+- B => right | 33,33%
+- C => false |-50%
+- D => false |-50%
+- E => right | 33,33%
 
 -----------------
 ## How to use it
