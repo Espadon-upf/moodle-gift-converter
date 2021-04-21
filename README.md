@@ -1,4 +1,4 @@
-# moodle-guift-converter
+# moodle-gift-converter
 
 -----------------
 
