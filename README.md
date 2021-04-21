@@ -11,10 +11,10 @@ The **_"moodle gift converter"_**, written in perl, transforms a text file into 
 ### Question name incrementation
 You don't have to worry about the question name, it increments by itself.
 It automatically adapts to the number of questions.
-It will look like this:
-"Question [0-9]" if less than 10 questions in total
-"Question [0-9][0-9]" if between 10 and 100 questions in total
-"Question [0-9][0-9][0-9]" if between 100 and 999(inclusive) total
+It will look like this:  
+"Question [0-9]" if less than 10 questions in total  
+"Question [0-9][0-9]" if between 10 and 100 questions in total  
+"Question [0-9][0-9][0-9]" if between 100 and 999(inclusive) total  
 
 ### Allow negative point for multichoise with one right answer
 You have the option of setting a negative point percentage for single answer multichoice questions.
