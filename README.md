@@ -27,6 +27,12 @@ with:
 `[TextFile] => NameOfTheFile.txt`  
 `[GiftFile] => NameOfTheFile.gift`
 
+If you want to set a negative point make you should use a value between 0 and 100% (it represents the amount of negative point to aplie for each question).
+The negative points only affect the multi choice with a single good answer.
+
+For using it type  :   
+`./texttogift.pl [TextFile] [GiftFile] [NegativePoint]`
+
 -----------------
 
 ## Types of Question
